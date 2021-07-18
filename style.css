@@ -1,0 +1,77 @@
+.main{
+    margin-left: 30%;
+}
+.body-calculator{
+    height: 600px;
+    background-color: cadetblue;
+    width: 500px;
+}
+#dis{
+    font-size: 25px;
+    height: 60px;
+    width: 470px;
+    pointer-events: none;
+
+}
+
+.display-container{
+    padding: 10px;
+}
+.buttons-container{
+    padding: 10px;
+}
+input[type="button"]
+{
+    background-color: rgb(30, 52, 53);
+    color:white;
+    font-size: 25px;
+    width: 111px;
+    margin: 3px;
+    height: 100px;
+}
+input[class="Reset"]
+{   
+    background-color: rgb(30, 52, 53);
+    color:white;
+    font-size: 25px;
+    width: 232px;
+    margin: 3px;
+    height: 65px;
+}
+input[class="Backspace"]{
+    background-color: rgb(30, 52, 53);
+    color:white;
+    font-size: 25px;
+    width: 232px;
+    margin: 3px;
+    height: 65px;
+}
+input[type="button"]:hover
+{
+    background-color: rgb(55, 118, 121);
+    color:white;
+    font-size: 25px;
+    width: 111px;
+    margin: 3px;
+    height: 100px;
+}
+input[class="Reset"]:hover
+{   
+    background-color: rgb(55, 118, 121);
+    color:white;
+    font-size: 25px;
+    width: 232px;
+    margin: 3px;
+    height: 65px;
+}
+input[class="Backspace"]:hover
+{
+    background-color: rgb(55, 118, 121);
+    color:white;
+    font-size: 25px;
+    width: 232px;
+    margin: 3px;
+    height: 65px;
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="body-calculator">
+            <div class="display-container">
+                <input type="text" class="display" id="dis" placeholder="0">
+            </div>
+            <div class="buttons-container">
+                <input type="button" value="7" onclick="yourClick(7)">
+                <input type="button" value="8" onclick="yourClick(8)">
+                <input type="button" value="9" onclick="yourClick(9)">
+                <input type="button" value="-" onclick="yourClick('+')">
+
+                <input type="button" value="4" onclick="yourClick(4)">
+                <input type="button" value="5" onclick="yourClick(5)">
+                <input type="button" value="6" onclick="yourClick(6)">
+                <input type="button" value="+" onclick="yourClick('+')">
+
+                <input type="button" value="1" onclick="yourClick(1)">
+                <input type="button" value="2" onclick="yourClick(2)">
+                <input type="button" value="3" onclick="yourClick(3)">
+                <input type="button" value="x" onclick="yourClick('*')">
+                
+                <input type="button" value="." onclick="yourClick('.')">
+                <input type="button" value="0" onclick="yourClick(0)">
+                <input type="button" value="/" onclick="yourClick('/')">
+                <input type="button" value="=" onclick="result()">
+
+                <input type="button" class="Reset" value="Reset" onclick="reset()">
+                <input type="button" class="Backspace" value="Backspace" onclick="backSpace()">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
